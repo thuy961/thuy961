@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.container_flex {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.left {
+    width: 15%;
+}
+
+.center {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.center div {
+    text-align: center;
+    
+}
+.center div button {
+    background-color: red;
+   
+}
+
+.right {
+    width: 25%;
+}
+
+.left ul li {
+    list-style: none;
+}
+.left ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 24px;
+    color: black;
+}
+
+.left nav {
+    width: 40%;
+    background-color: white;
+}
+.left nav ul {
+    border-radius: 50%;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+}
+.right ul li {
+    list-style: none;
+}
+
+.right {
+    padding: 15px;
+}
+.right ul li a{
+    text-decoration: none;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #a35959;
+}
+.right h3, .right p.copyright{
+    text-align: center;
+}
+.right .btn {
+    text-align: center;
+}
+.left:hover a {
+    color: red 2s;
+    background-color: black;
+    
+}
+
